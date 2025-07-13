@@ -1,4 +1,7 @@
+[![Support Palestine](https://raw.githubusercontent.com/Ademking/Support-Palestine/main/Support-Palestine.svg)](https://www.map.org.uk)
+
 # Teeth Disease Classification Project
+![Teeth Classification using CNN](https://static.wixstatic.com/media/b36da8_2179a5da33b5492583fca41bbf09831f~mv2.jpg/v1/fill/w_1000,h_524,al_c,q_85,usm_0.66_1.00_0.01/b36da8_2179a5da33b5492583fca41bbf09831f~mv2.jpg)
 
 This repository contains a deep learning project for classifying various teeth diseases from images. It includes two Jupyter notebooks detailing the model creation process (one using transfer learning and another from scratch), a saved Keras model, and a Streamlit web application for easy user interaction.
 
@@ -45,6 +48,18 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 You need to have Python and pip installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+
+The dataset is organized into directories by class. For example:
+
+```
+Teeth_Dataset/
+└── Training/
+    ├── Class_1/
+    ├── Class_2/
+    └── ...
+```
+
+Each subdirectory contains the images for that specific class.
 
 ### Installation
 
@@ -124,6 +139,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
-
-Project Link: [https://github.com/your_username/your_repository_name](https://github.com/your_username/your_repository_name)
+Abdallah Ammar - [@LinkedIn](https://www.linkedin.com/in/abdallah-hesham-ammar/) - abdallah.hesham.us@gmail.com
